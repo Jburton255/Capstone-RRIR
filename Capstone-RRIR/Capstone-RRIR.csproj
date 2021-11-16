@@ -84,6 +84,7 @@
     <Content Include="assets\img\539-5397175_temple-university-logo.png" />
     <Content Include="assets\img\5ckQyFrK_400x400.jpeg" />
     <Content Include="assets\img\avatar.jpg" />
+    <Content Include="assets\img\filter.png" />
     <Content Include="assets\img\KD-White.png" />
     <Content Include="assets\img\logo.png" />
     <Content Include="assets\img\l_img_0239_40_41_42_43-copy.jpg" />
@@ -101,6 +102,8 @@
     <Content Include="ApplicationStart.aspx" />
     <Content Include="StudentHome.aspx" />
     <Content Include="StudentContinue.aspx" />
+    <Content Include="RAStatus.aspx" />
+    <Content Include="AdminHome.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -180,6 +183,20 @@
     </Compile>
     <Compile Include="StudentContinue.aspx.designer.cs">
       <DependentUpon>StudentContinue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RAStatus.aspx.cs">
+      <DependentUpon>RAStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RAStatus.aspx.designer.cs">
+      <DependentUpon>RAStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
