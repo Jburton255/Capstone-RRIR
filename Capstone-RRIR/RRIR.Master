@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RRIR.Master.cs" Inherits="Capstone_RRIR.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <title>RRIR</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/Growing-Search-Bar-Animated-Text-Input.css">
+    <link rel="stylesheet" href="assets/css/KD_Header.css">
+    <link rel="stylesheet" href="assets/css/KD_Header-1.css">
+    <link rel="stylesheet" href="assets/css/KD_Header-2.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-md custom-header" style="padding-right: 0px;padding-top: 24px;padding-left: 35px;border-style: none;">
+        <div class="container-fluid">
+            <h1 style="color: rgb(255,255,255);font-size: 24px;text-align: center;padding: -4px;width: 900px;"><br><img class="img-fluid" style="width: 60px;margin-right: -27px;margin-top: -30px;margin-left: -33px;margin-bottom: -31px;border-style: solid;border-color: var(--bs-white);" src="assets/img/logo.png" width="auto" height="auto">&nbsp; &nbsp; &nbsp; &nbsp;Registration Request for Independent Research<br><br></h1>
+            <div class="d-flex justify-content-center" style="margin-bottom: 31px;height: 0;"></div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button" style="color: var(--bs-white);background: rgb(41,44,47);border-style: none;">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="background: #fcfcfc;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="searchbar" style="background: var(--bs-gray-500);height: 44px;width: 224px;"><input type="text" class="search_input" placeholder="Search..." style="width: 150px;height: 21px;"><a class="search_icon" href="#" style="height: 22px;"><i class="fas fa-search"></i></a></div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav me-auto" style="height: 41px;border-style: none;">
+                    <li class="nav-item"><a class="nav-link active" href="ApplicationStart.aspx" style="color: #ffffff;">Home</a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="ApplicationStart.aspx" style="color: #ffffff;">Apply</a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="#" style="color: #ffffff;">Update</a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="About.aspx" style="color: #ffffff;">About</a></li>
+                    <li class="nav-item" style="color: #ffffff;margin-left: 225px;"><a class="nav-link" href="#" style="color: #ffffff;">Notifications</a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="#" style="color: #ffffff;width: 195.5px;">Welcome Back (Name)</a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="#" style="color: #ffffff;width: 75.5px;padding: 8px;">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <form id="form1" runat="server">
+        <div>
+
+            
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+           <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation" id="footer_text"><p>Temple University</br>Registration Request for Independent Research</br>Science Education and Research</br>1925 N 12th Street</br>Philadelphia, PA 19121</p>
+                <h3></h3>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><p>Temple University</br>College of Science and Technology</br>Suite 400, Carnell Hall</br>1803 N. Broad Street</br>Philadelphia, PA 19121</p></div>
+                <div></div>
+                <div>
+                    <p> <a href="#" target="_blank">Copyright 2021. Temple University All rights reserved</a></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="row"><div id="HHCF" class="col-md-6">
+    <p><a class="nav-link" href="StudentHome.aspx" style="color: #ffffff;width: 75.5px;padding: 8px;">Home</a><br />Help<br />Contact<br /><a class="nav-link" href="About.aspx" style="color: #ffffff;width: 75.5px;padding: 8px;">About</a></p>
+</div>
+                        <div class="col-md-6" id="hhcf"><img src="assets/img/5ckQyFrK_400x400.jpeg"><p>Temple</br>University</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </footer>
+
+        </div>
+    </form>
+</body>
+</html>
