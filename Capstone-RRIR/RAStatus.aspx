@@ -33,7 +33,7 @@
                     <td style="text-align: center;">4-20-2021</td>
                     <td>
                         <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: #a51b33;">Actions</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                             <div class="dropdown-menu"><a class="dropdown-item" href="UploadTimeline.aspx">Upload Timeline</a><a class="dropdown-item" href="UploadExplanation.aspx">Upload Explanation</a><a class="dropdown-item" href="#">Third Item</a></div>
                         </div>
                     </td>
                 </tr>
@@ -44,7 +44,7 @@
                     <td style="background-color: #d1cbcc;text-align: center;">04-20-2021</td>
                     <td>
                         <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: #a51b33;">Actions</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="UploadTimeline.aspx">Upload Timeline</a><a class="dropdown-item" href="UploadExplanation.aspx">Upload Explanation</a><a class="dropdown-item" href="#">Third Item</a></div>
                         </div>
                     </td>
                 </tr>
@@ -55,7 +55,7 @@
                     <td style="text-align: center;">04-20-2021</td>
                     <td>
                         <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: #a51b33;">Actions</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                             <div class="dropdown-menu"><a class="dropdown-item" href="UploadTimeline.aspx">Upload Timeline</a><a class="dropdown-item" href="UploadExplanation.aspx">Upload Explanation</a><a class="dropdown-item" href="#">Third Item</a></div>
                         </div>
                     </td>
                 </tr>
@@ -66,7 +66,7 @@
                     <td style="background-color: #d1cbcc;text-align: center;">Not Available</td>
                     <td>
                         <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: #a51b33;">Actions</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                             <div class="dropdown-menu"><a class="dropdown-item" href="UploadTimeline.aspx">Upload Timeline</a><a class="dropdown-item" href="UploadExplanation.aspx">Upload Explanation</a><a class="dropdown-item" href="#">Third Item</a></div>
                         </div>
                     </td>
                 </tr>
@@ -77,7 +77,7 @@
                     <td style="text-align: center;">Not Available</td>
                     <td>
                         <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: #a51b33;">Actions</button>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                             <div class="dropdown-menu"><a class="dropdown-item" href="UploadTimeline.aspx">Upload Timeline</a><a class="dropdown-item" href="UploadExplanation.aspx">Upload Explanation</a><a class="dropdown-item" href="#">Third Item</a></div>
                         </div>
                     </td>
                 </tr>

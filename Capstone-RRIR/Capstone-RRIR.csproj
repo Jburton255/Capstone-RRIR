@@ -77,6 +77,7 @@
     <Content Include="assets\css\Navigation-with-Button.css" />
     <Content Include="assets\css\Pretty-Footer.css" />
     <Content Include="assets\css\styles.css" />
+    <Content Include="assets\css\untitled.css" />
     <Content Include="assets\fonts\fa-brands-400.svg" />
     <Content Include="assets\fonts\fa-regular-400.svg" />
     <Content Include="assets\fonts\fa-solid-900.svg" />
@@ -104,6 +105,7 @@
     <Content Include="StudentContinue.aspx" />
     <Content Include="RAStatus.aspx" />
     <Content Include="AdminHome.aspx" />
+    <Content Include="UploadedDocs.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -197,6 +199,13 @@
     </Compile>
     <Compile Include="AdminHome.aspx.designer.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadedDocs.aspx.cs">
+      <DependentUpon>UploadedDocs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadedDocs.aspx.designer.cs">
+      <DependentUpon>UploadedDocs.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

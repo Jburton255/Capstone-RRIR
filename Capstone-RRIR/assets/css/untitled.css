@@ -1,0 +1,57 @@
+.btn-primary {
+  color: #fff;
+  background-color: #333333;
+  border-color: #333333;
+}
+
+#Upload-Syllabus {
+  position: absolute;
+  top: 225px;
+  left: 125px;
+  height: 50px;
+  width: 279px;
+}
+
+#UploadTimeline {
+  position: absolute;
+  top: 225px;
+  left: 450px;
+  height: 50px;
+  width: 279px;
+}
+
+#UploadSupervisorExp {
+  position: absolute;
+  top: 225px;
+  left: 775px;
+  height: 50px;
+  width: 279px;
+}
+
+#H2UploadedDocs {
+  text-align: center;
+}
+
+.table {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width: 1125px;
+  border: solid;
+}
+
+.tableheaders {
+  background-color: #A41B33;
+  text-align: center;
+  color: #f0f9ff;
+}
+
+tr {
+  text-align: center;
+  height: 80px;
+}
+
+img {
+  height: 40px;
+}
+
