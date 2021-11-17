@@ -109,6 +109,7 @@
     <Content Include="UploadedDocs.aspx" />
     <Content Include="RA_Admin Upload Docs.aspx" />
     <Content Include="UploadTimeline.aspx" />
+    <Content Include="Templates.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -223,6 +224,13 @@
     </Compile>
     <Compile Include="UploadTimeline.aspx.designer.cs">
       <DependentUpon>UploadTimeline.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates.aspx.cs">
+      <DependentUpon>Templates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates.aspx.designer.cs">
+      <DependentUpon>Templates.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

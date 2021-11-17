@@ -42,7 +42,7 @@
                     <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="RAStatus.aspx" style="color: #ffffff;">RA Home</a></li>
                     <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="AdminHome.aspx" style="color: #ffffff;">Admin Home</a></li>
                     <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="ApplicationStart.aspx" style="color: #ffffff;">Apply</a></li>
-                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="#" style="color: #ffffff;">Update</a></li>
+                    <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="Templates.aspx" style="color: #ffffff;">Update</a></li>
                     <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="About.aspx" style="color: #ffffff;">About</a></li>
                     <li class="nav-item" style="color: #ffffff;margin-left: 15%;"><a class="nav-link" href="#" style="color: #ffffff;">Notifications</a></li>
                     <li class="nav-item" style="color: #ffffff;"><a class="nav-link" href="#" style="color: #ffffff;width: 195.5px;">Welcome Back (Name)</a></li>
