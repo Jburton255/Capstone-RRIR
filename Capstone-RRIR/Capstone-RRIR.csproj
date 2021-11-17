@@ -93,6 +93,7 @@
     <Content Include="assets\img\outline_file_download_black_24dp.png" />
     <Content Include="assets\img\Rectangle.png" />
     <Content Include="Ack.aspx" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
     <Content Include="Proposal.aspx" />
     <Content Include="About.aspx" />

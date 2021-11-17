@@ -51,30 +51,30 @@
 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-
-           <footer>
-        <div class="row">
-            <div class="col-sm-6 col-md-4 footer-navigation" id="footer_text"><p>Temple University</br>Registration Request for Independent Research</br>Science Education and Research</br>1925 N 12th Street</br>Philadelphia, PA 19121</p>
-                <h3></h3>
-            </div>
-            <div class="col-sm-6 col-md-4 footer-contacts">
-                <div><p>Temple University</br>College of Science and Technology</br>Suite 400, Carnell Hall</br>1803 N. Broad Street</br>Philadelphia, PA 19121</p></div>
-                <div></div>
-                <div>
-                    <p> <a href="#" target="_blank">Copyright 2021. Temple University All rights reserved</a></p>
+               <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <ul>
+                        <li></li>
+                    </ul><img src="assets/img/5ckQyFrK_400x400.jpeg" style="height: 100px;">
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Home</h3>
+                    <ul>
+                        <li><a href="#">Applications</a></li>
+                        <li><a href="#">Update</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Temple University</h3>
+                    <p>Registration Request for Independent Research<br>Science Education and Research<br>1925 N 12th Street<br>Philadelphia, PA 19121</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="container">
-                    <div class="row"><div id="HHCF" class="col-md-6">
-    <p><a class="nav-link" href="StudentHome.aspx" style="color: #ffffff;width: 75.5px;padding: 8px;">Home</a><br />Help<br />Contact<br /><a class="nav-link" href="About.aspx" style="color: #ffffff;width: 75.5px;padding: 8px;">About</a></p>
-</div>
-                        <div class="col-md-6" id="hhcf"><img src="assets/img/5ckQyFrK_400x400.jpeg" style=" height: 100px;width: 100px;"><p>Temple</br>University</p></div>
-                    </div>
-                </div>
-            </div>
+            <p class="copyright">Temple University © 2021</p>
         </div>
-            </footer>
+    </footer>
 
         </div>
     </form>
