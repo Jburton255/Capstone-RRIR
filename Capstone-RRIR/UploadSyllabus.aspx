@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/RRIR.Master" AutoEventWireup="true" CodeBehind="Upload.aspx.cs" Inherits="Capstone_RRIR.WebForm4" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/RRIR.Master" AutoEventWireup="true" CodeBehind="UploadSyllabus.aspx.cs" Inherits="Capstone_RRIR.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div class="table-responsive">
+    <div class="table-responsive">
         <table class="table">
             <thead>
                 <tr></tr>
@@ -12,10 +12,10 @@
                 <tr></tr>
             </tbody>
         </table>
-    </div><label class="form-label h1" style="text-align: center;display: block;margin-top: 2.5%; background-color: #a51b33; color: white;">Upload Documents</label>
+    </div><label class="form-label h1" style="text-align: center;display: block;margin-top: 2.5%; background-color: #a51b33; color: white;">Upload Syllabus</label>
     <div style="width: 90%;border: solid black 1px;/*text-align: center;*/margin: auto;padding: 1%;">
-        <div class="col-md-5" style="/*display: inline-block;*//*text-align: center;*//*margin-left: 5%;*/margin-top: 0;float: left;">
-            <div class="table-responsive" style="/*display: inline;*//*height: 100%;*/">
+        <div class="col-md-5" style="display: inline-block;/*text-align: center;*//*margin-left: 5%;*/margin-top: 0;float: left;">
+            <div class="table-responsive" style="/*display: inline-block;*//*height: 100%;*//*float: left;*/margin-top: 0;">
                 <table class="table">
                     <thead>
                         <tr></tr>
@@ -23,10 +23,10 @@
                     <tbody>
                         <tr></tr>
                         <tr>
-                            <td style="/*border: none;*/"><button class="btn btn-primary btn-light col-7" type="button" style="/*float: right;*//*margin-right: 5%;*//*margin-top: 1%;*//*background-color: #292c2f;*//*border-radius: 0%;*//*border: none;*//*width: 50%;*//*width: 100%;*//*margin-top: 0px;*/border: solid black 0.5px;">Upload File</button></td>
+                            <td style="/*border: none;*/width: 100%;"><button class="btn btn-primary btn-light col-7" type="button" style="/*float: right;*//*margin-right: 5%;*//*margin-top: 1%;*//*background-color: #292c2f;*//*border-radius: 0%;*//*border: none;*//*width: 50%;*//*width: 100%;*//*margin-top: 0px;*/border: solid black 0.5px;">Upload File</button></td>
                         </tr>
                         <tr>
-                            <td><label class="form-label">1. Week 1.pdf</label><label class="form-label col-2" style="/*text-align: right;*//*margin-left: 40%;*/margin-left: 5%;">100%</label><label class="form-label" style="/*text-align: right;*//*margin-left: 20%;*/margin-left: 5%;margin-right: 5%;">X</label></td>
+                            <td><label class="form-label">1. Timeline.docx</label><label class="form-label col-2" style="/*text-align: right;*//*margin-left: 40%;*/margin-left: 5%;">100%</label><label class="form-label" style="/*text-align: right;*//*margin-left: 20%;*/margin-left: 5%;">X</label></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -57,7 +57,6 @@
                 </table>
             </div>
         </div>
-        <div style="clear: both;text-align: right;"><asp:button runat="server" Text="Return" class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/" OnClick="Unnamed1_Click">
-                                                    </asp:button><asp:button runat="server" Text="Submit" class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/margin-left: 2.5%;" OnClick="Unnamed2_Click"></asp:button></div>
+        <div style="clear: both;text-align: right;"><button class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/margin-left: 2.5%;">Submit</button></div>
     </div>
 </asp:Content>

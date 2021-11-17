@@ -99,7 +99,7 @@
     <Content Include="About.aspx" />
     <Content Include="Supervisor.aspx" />
     <Content Include="Upload.aspx" />
-    <Content Include="UploadTimeline.aspx" />
+    <Content Include="UploadSyllabus.aspx" />
     <Content Include="UploadExplanation.aspx" />
     <Content Include="ApplicationStart.aspx" />
     <Content Include="StudentHome.aspx" />
@@ -107,6 +107,8 @@
     <Content Include="RAStatus.aspx" />
     <Content Include="AdminHome.aspx" />
     <Content Include="UploadedDocs.aspx" />
+    <Content Include="RA_Admin Upload Docs.aspx" />
+    <Content Include="UploadTimeline.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -152,12 +154,12 @@
     <Compile Include="Upload.aspx.designer.cs">
       <DependentUpon>Upload.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UploadTimeline.aspx.cs">
-      <DependentUpon>UploadTimeline.aspx</DependentUpon>
+    <Compile Include="UploadSyllabus.aspx.cs">
+      <DependentUpon>UploadSyllabus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="UploadTimeline.aspx.designer.cs">
-      <DependentUpon>UploadTimeline.aspx</DependentUpon>
+    <Compile Include="UploadSyllabus.aspx.designer.cs">
+      <DependentUpon>UploadSyllabus.aspx</DependentUpon>
     </Compile>
     <Compile Include="UploadExplanation.aspx.cs">
       <DependentUpon>UploadExplanation.aspx</DependentUpon>
@@ -207,6 +209,20 @@
     </Compile>
     <Compile Include="UploadedDocs.aspx.designer.cs">
       <DependentUpon>UploadedDocs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RA_Admin Upload Docs.aspx.cs">
+      <DependentUpon>RA_Admin Upload Docs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RA_Admin Upload Docs.aspx.designer.cs">
+      <DependentUpon>RA_Admin Upload Docs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadTimeline.aspx.cs">
+      <DependentUpon>UploadTimeline.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadTimeline.aspx.designer.cs">
+      <DependentUpon>UploadTimeline.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

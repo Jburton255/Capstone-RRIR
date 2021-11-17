@@ -1,21 +1,62 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/RRIR.Master" AutoEventWireup="true" CodeBehind="UploadExplanation.aspx.cs" Inherits="Capstone_RRIR.WebForm6" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <h1 id="H1" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;margin-right: 150px;margin-left: 150px;">Supervisor Explanation&nbsp; &nbsp;&nbsp;</h1>
-    <div style="height: 550px;margin: 45px;border: 2px inset rgb(52,52,52);padding: 0px;">
-        <div class="container">
-            <div class="row" style="height: 80px;margin: 15px;">
-                <div class="col-md-6" style="height: 80px;"><button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right;margin: 10px;background: rgb(81,81,81);border-color: rgb(0,0,0);padding: 5px 18px;">Upload File</button></div>
-                <div class="col-md-6" style="height: 80px;">
-                    <h1 id="H-2" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;height: 20px;padding-top: 0px;">Write a name for this file:&nbsp; &nbsp; &nbsp;&nbsp;</h1><input class="col-md" type="text" placeholder="Name..." style="height: 20px; min-width: 100%" />
-                </div>
+    <label class="form-label h1" style="text-align: center; display: block; margin: auto; margin-top: 2.5%; margin-bottom: 2.5%; background-color: #a51b33; color: white; padding: 0.5%;">Supervisor Explanation</label>
+    <div style="width: 90%; border: solid black 1px; /*text-align: center; */margin: auto; padding: 1%;">
+        <div class="col-md-5" style="display: inline-block; /*text-align: center; *//*margin-left: 5%; */margin-top: 0; float: left;">
+            <div class="table-responsive" style="/*display: inline-block; *//*height: 100%; *//*float: left; */margin-top: 0;">
+                <table class="table">
+                    <thead>
+                        <tr></tr>
+                    </thead>
+                    <tbody>
+                        <tr></tr>
+                        <tr>
+                            <td style="/*border: none; */width: 100%;">
+                                <button class="btn btn-primary btn-light col-7" type="button" style="/*float: right; *//*margin-right: 5%; *//*margin-top: 1%; *//*background-color: #292c2f; *//*border-radius: 0%; *//*border: none; *//*width: 50%; *//*width: 100%; *//*margin-top: 0px; */border: solid black 0.5px;">Upload File</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="form-label">1. Explanation.pdf</label><label class="form-label col-2" style="/*text-align: right; *//*margin-left: 40%; */margin-left: 5%;">100%</label><label class="form-label" style="/*text-align: right; *//*margin-left: 20%; */margin-left: 5%;">X</label></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <div class="row" style="padding-top: 75px;">
-            <div class="col">
-                <h1 id="H-3" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;height: 20px;">Explanation:&nbsp; &nbsp; &nbsp;&nbsp;</h1><input class="col-md" type="text" placeholder="Explanation..." style="height: 250px; min-width: 100%" /><button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right;margin: 10px;background: rgb(81,81,81);border-color: rgb(0,0,0);padding: 5px 18px;">Submit</button><button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right;margin: 10px;background: rgb(81,81,81);border-color: rgb(0,0,0);padding: 5px 18px;">Cancel</button>
+        <div class="col-md-7" style="display: inline-block; /*float: right; *//*height: 200px; */">
+            <div class="table-responsive" style="/*display: inline; *//*height: 50%; */">
+                <table class="table" style="border: none;">
+                    <thead>
+                        <tr></tr>
+                    </thead>
+                    <tbody>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <label class="form-label">Write a comment on this file</label><textarea class="col-12" style="height: 10em;"></textarea></td>
+                        </tr>
+                        <tr></tr>
+                        <tr>
+                            <td>
+                                <label class="form-label">Write a name for this file</label><input type="text" class="col-12"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
+        <div style="clear: both; text-align: right;">
+            <button class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%; */margin-left: 2.5%;">
+                <a href="RAStatus.aspx" style="text-decoration: none; color: white;">Submit</a>
+            </button>
         </div>
     </div>
+    <footer class="footer-dark" style="margin-top: 450px; height: 110px; background: rgb(41,44,47);"></footer>
 </asp:Content>
