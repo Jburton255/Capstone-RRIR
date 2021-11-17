@@ -7,10 +7,7 @@
     <div style="width: 90%; border: solid black 1px; /*text-align: center; */margin: auto; padding: 1%;">
         <div class="col-md-5" style="display: inline-block; /*text-align: center; *//*margin-left: 5%; */margin-top: 0; float: left;">
             <div class="table-responsive" style="/*display: inline-block; *//*height: 100%; *//*float: left; */margin-top: 0;">
-                <table class="table">
-                    <thead>
-                        <tr></tr>
-                    </thead>
+                <table class="table" style="border-color: white;">
                     <tbody>
                         <tr></tr>
                         <tr>
@@ -33,10 +30,7 @@
         </div>
         <div class="col-md-7" style="display: inline-block; /*float: right; *//*height: 200px; */">
             <div class="table-responsive" style="/*display: inline; *//*height: 50%; */">
-                <table class="table" style="border: none;">
-                    <thead>
-                        <tr></tr>
-                    </thead>
+                <table class="table" style="border-color: white;">
                     <tbody>
                         <tr></tr>
                         <tr>

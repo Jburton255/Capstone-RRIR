@@ -1,6 +1,23 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/RRIR.Master" AutoEventWireup="true" CodeBehind="ApplicationStart.aspx.cs" Inherits="Capstone_RRIR.WebForm7" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            flex: 0 0 auto;
+            width: 16.66666667%;
+            height: 21px;
+        }
+        .auto-style2 {
+            flex: 0 0 auto;
+            width: 41.66666667%;
+            height: 21px;
+        }
+        .auto-style3 {
+            flex: 0 0 auto;
+            width: 66.66666667%;
+            height: 21px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <label class="form-label h1" style="text-align: center; display: block; margin-top: 2.5%; background-color: #a51b33; color: white;">New applicants please complete the form below to start your application</label>
@@ -12,9 +29,7 @@
                     <label class="form-label">Applicant Information</label>
                 </div>
                 <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                        </thead>
+                    <table class="table" style="border-color: white;">
                         <tbody>
                             <tr>
                                 <td>
@@ -53,14 +68,12 @@
                     <label class="form-label">Application Requirements</label>
                 </div>
                 <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                        </thead>
+                    <table class="table" style="border-color:white;">
                         <tbody>
                             <tr>
-                                <td class="col-2" style="font-size: 12px;">Check all that apply</td>
-                                <td class="col-5">Requirements</td>
-                                <td class="col-8">Term Completed</td>
+                                <td class="auto-style1" style="font-size: 12px;">Check all that apply</td>
+                                <td class="auto-style2">Requirements</td>
+                                <td class="auto-style3">Term Completed</td>
                             </tr>
                             <tr>
                                 <td class="col-2" style="font-size: 12px;">
@@ -104,9 +117,7 @@
                     <label class="form-label">Professor Information</label>
                 </div>
                 <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                        </thead>
+                    <table class="table" style="border-color: white;">
                         <tbody>
                             <tr class="text-center">
                                 <td>
@@ -126,7 +137,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="table-responsive">
-                    <table class="table">
+                    <table class="table" style="border-color: white;">
                         <tbody>
                             <tr>
                                 <td>
@@ -159,19 +170,16 @@
     </div>
     <div class="table-responsive">
         <table class="table">
-            <thead>
-            </thead>
             <tbody>
             </tbody>
         </table>
     </div>
     <label class="form-label h1" style="text-align: center; display: block; margin-top: 2.5%; background-color: #a51b33; color: white;">Upload Timeline</label>
     <div style="width: 90%; border: solid black 1px; /*text-align: center; */margin: auto; padding: 1%;">
-        <div class="col-md-5" style="display: inline-block; /*text-align: center; *//*margin-left: 5%; */margin-top: 0; float: left;">
+        <div class="col-md-5" style="display: inline-block; border-style:none; /*text-align: center; *//*margin-left: 5%; */margin-top: 0; float: left;">
             <div class="table-responsive" style="/*display: inline-block; *//*height: 100%; *//*float: left; */margin-top: 0;">
-                <table class="table">
-                    <thead>
-                    </thead>
+                <table class="table" style="border-color:white;">
+
                     <tbody>
                         <tr>
                             <td style="/*border: none; */width: 100%;">
@@ -193,9 +201,7 @@
         </div>
         <div class="col-md-7" style="display: inline-block; /*float: right; *//*height: 200px; */">
             <div class="table-responsive" style="/*display: inline; *//*height: 50%; */">
-                <table class="table" style="border: none;">
-                    <thead>
-                    </thead>
+                <table class="table" style="border-color: white;">
                     <tbody>
                         <tr>
                             <td>
