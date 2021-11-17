@@ -41,7 +41,7 @@ MINIMUM REQUIREMENT:   W-course instructors should be familiar with the kinds of
                     <button id="proposalSubmit" class="btn btn-primary" type="button" 
                         data-bs-toggle="modal" data-bs-target="#modal1" style="float: right;
                         background: rgb(81,81,81);border-color: rgb(0,0,0);margin: -5px;">
-                        <a class="nav-link" href="StudentContinue.aspx" style="color: #ffffff;">Submit</a>
+                        <a class="nav-link" href="RAStatus.aspx" style="color: #ffffff;">Submit</a>
                     </button>
             </div>
         </div>

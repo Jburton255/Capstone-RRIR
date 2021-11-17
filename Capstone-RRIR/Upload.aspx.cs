@@ -13,5 +13,15 @@ namespace Capstone_RRIR
         {
 
         }
+
+        protected void Unnamed1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ApplicationStart.aspx");
+        }
+
+        protected void Unnamed2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ApplicationStart.aspx");
+        }
     }
 }

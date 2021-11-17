@@ -17,15 +17,8 @@
         to be accepted into the program. Keep in mind this is a writing intensive<br /> course, and all work produced
         must meet the writing intensive requirements of Temple University. <br /> To view the writing intensive
         requirements please click on the link below:</p>
-    <h5 style="top: 30px;left: 0px;position: relative;">Student Success Center</h5>
 </div>
             <div class="col-md-6"><img style="width:870px; height:125px; padding-top:45px; padding-left:680px;"; src="assets/img/539-5397175_temple-university-logo.png" /><h5 style="margin-left:690px; width:200px; font-size:15px;"> Registration Request for Independent Research</h5><img style="width:850px; height:500px; padding-top:20px;"; src="assets/img/l_img_0239_40_41_42_43-copy.jpg"/></div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6"></br><a style="margin-lef:0px;"; href="https://studentsuccess.temple.edu/; ">https://studentsuccess.temple.edu/</a></div>
-            <div class="col-md-6"></div>
         </div>
     </div>
 </asp:Content>

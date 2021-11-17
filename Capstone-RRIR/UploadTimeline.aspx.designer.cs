@@ -10,7 +10,7 @@
 
 namespace Capstone_RRIR
 {
-    public partial class WebForm5
+    public partial class WebForm14
     {
     }
 }
