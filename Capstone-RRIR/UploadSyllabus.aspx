@@ -18,12 +18,11 @@
             <div class="table-responsive" style="/*display: inline-block;*//*height: 100%;*//*float: left;*/margin-top: 0;">
                 <table class="table" style="border-color: white;">
                     <tbody>
-                        <tr></tr>
                         <tr>
                             <td style="/*border: none;*/width: 100%;"><button class="btn btn-primary btn-light col-7" type="button" style="/*float: right;*//*margin-right: 5%;*//*margin-top: 1%;*//*background-color: #292c2f;*//*border-radius: 0%;*//*border: none;*//*width: 50%;*//*width: 100%;*//*margin-top: 0px;*/border: solid black 0.5px;">Upload File</button></td>
                         </tr>
                         <tr>
-                            <td><label class="form-label">1. Timeline.docx</label><label class="form-label col-2" style="/*text-align: right;*//*margin-left: 40%;*/margin-left: 5%;">100%</label><label class="form-label" style="/*text-align: right;*//*margin-left: 20%;*/margin-left: 5%;">X</label></td>
+                            <td><label class="form-label">1. Syllabus.docx</label><label class="form-label col-2" style="/*text-align: right;*//*margin-left: 40%;*/margin-left: 5%;">100%</label><label class="form-label" style="/*text-align: right;*//*margin-left: 20%;*/margin-left: 5%;">X</label></td>
                         </tr>
                         <tr>
                             <td></td>
