@@ -51,6 +51,8 @@
                 </table>
             </div>
         </div>
-        <div style="clear: both;text-align: right;"><button class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/margin-left: 2.5%;">Submit</button></div>
+        <div style="clear: both;text-align: right;"><button class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/margin-left: 2.5%;">
+            <a href="UploadedDocs.aspx" style="text-decoration:none; color: white;">Submit</a>
+                                                    </button></div>
     </div>
 </asp:Content>
