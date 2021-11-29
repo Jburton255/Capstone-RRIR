@@ -21,7 +21,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <label class="form-label h1" style="text-align: center; display: block; margin-top: 2.5%; background-color: #a51b33; color: white;">New applicants please complete the form below to start your application</label>
-    <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">Current Term: F2021</label>
+    <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">Current Term: Fall 2021</label>
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -114,22 +114,22 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="text-center" style="background-color: #a51b33; color: white;">
-                    <label class="form-label">Professor Information</label>
+                    <label class="form-label">Research Faculty Member Information</label>
                 </div>
                 <div class="table-responsive">
                     <table class="table" style="border-color: white;">
                         <tbody>
                             <tr class="text-center">
                                 <td>
-                                    <label class="form-label formLabel">Professor First Name:</label><label class="form-label asterisk">*</label><input type="text"></td>
+                                    <label class="form-label formLabel">Research Faculty Member First Name:</label><label class="form-label asterisk">*</label><input type="text"></td>
                             </tr>
                             <tr>
                                 <td class="text-center">
-                                    <label class="form-label formLabel">Professor Last Name:</label><label class="form-label asterisk">*</label><input type="text"></td>
+                                    <label class="form-label formLabel">Research Faculty Member Last Name:</label><label class="form-label asterisk">*</label><input type="text"></td>
                             </tr>
                             <tr>
                                 <td class="text-center">
-                                    <label class="form-label formLabel">Research Advisor Email:</label><label class="form-label asterisk">*</label><input type="text"></td>
+                                    <label class="form-label formLabel">Research Faculty Member Email:</label><label class="form-label asterisk">*</label><input type="text"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -214,6 +214,9 @@
                     </tbody>
                 </table>
             </div>
+                    <div style="clear: both;text-align: right;"><button class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/margin-left: 2.5%;">
+                        <a href="#" style="text-decoration:none; color: white;">Submit</a>
+                                                    </button></div>
         </div>
         <div style="clear: both; text-align: right;"></div>
     </div>

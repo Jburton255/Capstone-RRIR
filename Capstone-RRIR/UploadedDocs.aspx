@@ -3,6 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1 id="H2UploadedDocs" style="background-color:#A41B33; text-align:center; color:white; margin-top:2.5%; margin-bottom: 2.5%">Uploaded Documents</h1>
+        <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">Current Term: Fall 2021</label>
+
     <div class="container" style="text-align: center; margin-bottom: 2.5%">
         <button class="btn btn-dark" id="Upload-Syllabus" type="button"><a href="UploadSyllabus.aspx" style="text-decoration:none; color:white;">Upload Syllabus</a></button>
         <button class="btn btn-dark" id="UploadTimeline" type="button"><a href="UploadTimeline.aspx" style="text-decoration:none; color:white;">Upload Timeline</a></button>

@@ -13,6 +13,7 @@
             </tbody>
         </table>
     </div><label class="form-label h1" style="text-align: center;display: block;margin-top: 2.5%; background-color: #a51b33; color: white;">Upload Timeline</label>
+        <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">Current Term: Fall 2021</label>
     <div style="width: 90%;border: solid black 1px;/*text-align: center;*/margin: auto;padding: 1%;">
         <div class="col-md-5" style="display: inline-block;/*text-align: center;*//*margin-left: 5%;*/margin-top: 0;float: left;">
             <div class="table-responsive" style="/*display: inline-block;*//*height: 100%;*//*float: left;*/margin-top: 0;">

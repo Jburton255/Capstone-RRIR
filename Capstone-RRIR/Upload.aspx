@@ -13,6 +13,7 @@
             </tbody>
         </table>
     </div><label class="form-label h1" style="text-align: center;display: block;margin-top: 2.5%; background-color: #a51b33; color: white;">Upload Documents</label>
+        <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">Current Term: Fall 2021</label>
     <div style="width: 90%;border: solid black 1px;/*text-align: center;*/margin: auto;padding: 1%;">
         <div class="col-md-5" style="/*display: inline-block;*//*text-align: center;*//*margin-left: 5%;*/margin-top: 0;float: left;">
             <div class="table-responsive" style="/*display: inline;*//*height: 100%;*/">
@@ -51,7 +52,6 @@
                 </table>
             </div>
         </div>
-        <div style="clear: both;text-align: right;"><asp:button runat="server" Text="Return" class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/" OnClick="Unnamed1_Click">
-                                                    </asp:button><asp:button runat="server" Text="Submit" class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/margin-left: 2.5%;" OnClick="Unnamed2_Click"></asp:button></div>
+        <div style="clear: both;text-align: right;"><asp:button runat="server" Text="Submit" class="btn btn-primary btn-dark col-md-3" type="button" style="/*width: 15%;*/margin-left: 2.5%;" OnClick="Unnamed2_Click"></asp:button></div>
     </div>
 </asp:Content>

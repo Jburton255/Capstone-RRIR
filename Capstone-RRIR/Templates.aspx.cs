@@ -13,5 +13,10 @@ namespace Capstone_RRIR
         {
 
         }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -7,7 +7,7 @@
         <button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: rgb(81,81,81); border-color: rgb(0,0,0);">
             Quick Links 
         </button>
-        <div class="dropdown-menu" style="position:fixed; top:0px; left:0px;">
+        <div class="dropdown-menu" style="position: fixed; top: 0px; left: 0px;">
             <a class="dropdown-item" href="#wr">Writing Intensive</a>
             <a class="dropdown-item" href="#email">Emails</a>
             <a class="dropdown-item" href="#about">About</a>
@@ -54,92 +54,27 @@ MINIMUM REQUIREMENT:   W-course instructors should be familiar with the kinds of
         </div>
     </div>
     <h1 id="email" class="h1-modal" style="text-align: center; margin-top: 20px; background-color: #a51b33; color: white;">Emails</h1>
-    <div style="margin: 40px; border: 2px inset rgb(52,52,52); height: 515px;">
-        <h1 id="H-2" class="h1-modal" style="text-align: center; font-size: 20px; margin: 20px; background-color: #a51b33; color: white;">Research Advisor Denied
+    <div class="col-8" style="margin: auto;">
+        <asp:Label ID="lblEmails" runat="server" Text="Select a email template to modify"></asp:Label>
+        <asp:DropDownList ID="DropDownList1" runat="server" class="form-control">
+            <asp:ListItem>RA Approve</asp:ListItem>
+            <asp:ListItem>RA Reject</asp:ListItem>
+            <asp:ListItem>CSFA Approve</asp:ListItem>
+            <asp:ListItem>CSFA Reject</asp:ListItem>
+            <asp:ListItem>Admin Approve</asp:ListItem>
+            <asp:ListItem>Admin Reject</asp:ListItem>
+        </asp:DropDownList>
+
+            <div style="margin: 40px; border: 2px inset rgb(52,52,52);">
+        <h1 id="H-8" class="h1-modal" style="text-align: center; font-size: 20px; margin: 20px;">
             <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin-right: 10px;">Edit</button>
             <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin-right: 10px;">Save</button></h1>
         <div>
-            <input placeholder="Email Subject..." style="height: 5%; width: 80%; margin: 20px; border-style: dashed;">   
-            </input>
-        </div>
-        <div class="overflow-auto" style="height: 55%; margin: 20px; border-style: inherit;">
-            <div style="height: 80%; width: 95%; margin: 20px; border-style: dashed;">
-                Dr. [ApplicantName],
-                <br>
-                <br>
-                I regret to inform you but at this time your application has received denied form your Research Advisor. The next step in the process
-                <br>
-                is to modify the current application based on the provided feedback. After the modification have been made the applicant my reapply.
-                <br>
-                <br>
-                Sincerely,<br>
-                [RAName]        
-            </div>
-        </div>
-        <div class="container">
-            <div class="row" style="min-width: 80%;">
-                <div class="col-md-6 col-xl-6" style="width: 100%;">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin: -5px;">Submit</button></div>
-            </div>
+            Email Subject
+            <div style="margin: 20px; border: dashed 2px black">
+                Email Body</div>
         </div>
     </div>
-    <div style="margin: 40px; border: 2px inset rgb(52,52,52); height: 515px;">
-        <h1 id="H-6" class="h1-modal" style="text-align: center; font-size: 20px; margin: 20px; background-color: #a51b33; color: white;">Research Advisor Approved
-            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin-right: 10px;">Edit</button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin-right: 10px;">Save</button></h1>
-        <div>
-            <input placeholder="Email Subject..." style="height: 5%; width: 80%; margin: 20px; border-style: dashed;">   
-            </input>
-        </div>
-        <div class="overflow-auto" style="height: 55%; margin: 20px; border-style: inherit;">
-            <div style="height: 80%; width: 80%; margin: 20px; border-style: dashed;">
-                Dr. [ApplicantName],
-                <br>
-                <br>
-                I am excited to inform you that your application has received approval form your Research Advisor. The next step in the process
-                <br>
-                will be for the program administrator to review and approve the application. At this time no further action is required. If any
-                <br>
-                additional information or altercations are required the administrator will send notification. Enjoy and congratulations! 
-                <br>
-                Sincerely,<br>
-                [RAName]        
-            </div>
-        </div>
-        <div class="container">
-            <div class="row" style="min-width: 80%;">
-                <div class="col-md-6 col-xl-6" style="width: 100%;">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin: -5px;">Submit</button></div>
-            </div>
-        </div>
-    </div>
-    <div style="margin: 40px; border: 2px inset rgb(52,52,52); height: 515px;">
-        <h1 id="H-7" class="h1-modal" style="text-align: center; font-size: 20px; margin: 20px; background-color: #a51b33; color: white;">Admin Accepted&nbsp; &nbsp; &nbsp;&nbsp;
-            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin-right: 10px;">Edit</button>
-            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin-right: 10px;">Save</button></h1>
-        <div>
-            <input placeholder="Email Subject..." style="height: 5%; width: 80%; margin: 20px; border-style: dashed;">   
-            </input>
-        </div>
-        <div class="overflow-auto" style="height: 55%; margin: 20px; border-style: inherit;">
-            <div style="height: 80%; width: 80%; margin: 20px; border-style: dashed;">
-                Dr. [ApplicantName],
-                <br>
-                <br>
-                I am excited to inform you that your application has received approval form your Advisor. The next step in the process
-                <br>
-                will be contacting your research advisor & start on your studys! Enjoy and congratulations! 
-                <br>
-                Sincerely,<br>
-                [AdminName]        
-            </div>
-        </div>
-        <div class="container">
-            <div class="row" style="min-width: 80%;">
-                <div class="col-md-6 col-xl-6" style="width: 100%;">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="float: right; background: rgb(81,81,81); border-color: rgb(0,0,0); margin: -5px;">Submit</button></div>
-            </div>
-        </div>
     </div>
     <h1 id="about" class="h1-modal" style="text-align: center; margin-top: 20px; background-color: #a51b33; color: white;">Modify About Content</h1>
     <div style="margin: 40px; border: 2px inset rgb(52,52,52);">

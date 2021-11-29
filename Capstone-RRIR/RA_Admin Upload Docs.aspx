@@ -3,6 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <h1 id="H2UploadedDocs" style="background-color:#A41B33; text-align:center; color:white; margin-top:2.5%; margin-bottom: 2.5%">Uploaded Documents</h1>
+            <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">Current Term: Fall 2021</label>
+
     <div class="table-responsive"  style="border: solid black 1px; width: 70%; margin: auto; margin-top: 5%">
         <table class="table" style="text-align: center" id="studentTable">
             <thead style="background-color:#A41B33; color:white;">
