@@ -4,8 +4,11 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <h1 id="H1" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;margin-right: 150px;margin-left: 150px;">Acknowledgement of Writing Intensive Requirements&nbsp; &nbsp;</h1>
+     <p class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;margin-right: 150px;margin-left: 150px;">&nbsp;</p>
     <div style="height: 575px;margin: 40px;border: 2px inset rgb(52,52,52);">
-        <h1 id="H-1" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;">Guidelines for Writing Intensive Courses&nbsp; &nbsp; &nbsp;&nbsp;</h1><div class="overflow-auto" style="height: 70%;margin: 20px;border-style: inherit;">1. The course must instruct students in the kinds of writing that are practiced by and valued by members of the field.
+        <h1 id="H-1" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;">
+            <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">
+            Current Term: Fall 2021</label>Guidelines for Writing Intensive Courses&nbsp; &nbsp; &nbsp;&nbsp;</h1><div class="overflow-auto" style="height: 70%;margin: 20px;border-style: inherit;">1. The course must instruct students in the kinds of writing that are practiced by and valued by members of the field.
 MINIMUM REQUIREMENT:  The course must provide an opportunity for students to learn about the  written genres (research papers, white papers, grant proposals, client visit reports, lesson plans, scientific posters, press releases, etc.) and/or writerly tasks (summarizing, reporting, critiquing, arguing, etc.) that are used and valued by members of the discipline/profession.
 <br>
 <br>    
@@ -46,4 +49,5 @@ MINIMUM REQUIREMENT:   W-course instructors should be familiar with the kinds of
             </div>
         </div>
     </div>
+</div>
 </asp:Content>

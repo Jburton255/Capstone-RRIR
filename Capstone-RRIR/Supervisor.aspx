@@ -2,7 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1 id="H1" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;margin-right: 150px;margin-left: 150px;">Research Faculty Member Explanation&nbsp; &nbsp;&nbsp;</h1>
+    <h1 id="H1" class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;margin-right: 150px;margin-left: 150px;">Research Faculty Member Explanation</h1>
+    <h1 class="h1-modal" style="text-align: center;font-size: 20px;margin: 20px;margin-right: 150px;margin-left: 150px;">
+        <label class="form-label h5" style="display: block; margin-top: 2.5%; margin-left:2.5%">
+        Current Term: Fall 2021</label>&nbsp; &nbsp;&nbsp;</h1>
     <div style="height: 550px;margin: 45px;border: 2px inset rgb(52,52,52);padding: 0px;">
         <div class="container">
             <div class="row" style="height: 80px;margin: 15px;">
